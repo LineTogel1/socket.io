@@ -17,18 +17,25 @@
     "wrapper.mjs",
     "!**/*.tsbuildinfo"
   ],
+<<<<<<< ours
   "directories": {
     "doc": "docs/",
     "example": "example/",
     "lib": "lib/",
     "test": "test/"
   },
+=======
+>>>>>>> theirs
   "type": "commonjs",
   "main": "./dist/index.js",
   "exports": {
     "import": "./wrapper.mjs",
+<<<<<<< ours
     "require": "./dist/index.js",
     "types": "./dist/index.d.ts"
+=======
+    "require": "./dist/index.js"
+>>>>>>> theirs
   },
   "types": "./dist/index.d.ts",
   "license": "MIT",
